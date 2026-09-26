@@ -1,0 +1,16 @@
+series,period,change_pct
+Natural forest,1990–2000,-1.98
+Natural forest,2000–2010,-6.37
+Natural forest,2010–2020,7.17
+Natural forest,2020–2030 ConvLSTM,-10.75
+Natural forest,2020–2030 ViT,-14.27
+Plantation,1990–2000,-1.66
+Plantation,2000–2010,9.81
+Plantation,2010–2020,-31.40
+Plantation,2020–2030 ConvLSTM,13.45
+Plantation,2020–2030 ViT,20.99
+Forest,1990–2000,-2.24
+Forest,2000–2010,-1.44
+Forest,2010–2020,-6.77
+Forest,2020–2030 ConvLSTM,-4.04
+Forest,2020–2030 ViT,-4.93

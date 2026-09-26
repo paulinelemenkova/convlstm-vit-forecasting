@@ -1,0 +1,197 @@
+period,from,to,area_km2
+1990-2000,Natural forest,Natural forest,114132.3
+1990-2000,Natural forest,Plantation,15338.4
+1990-2000,Natural forest,Mangrove,2.7
+1990-2000,Natural forest,Woody crops,3508.8
+1990-2000,Natural forest,Other agriculture,1898.5
+1990-2000,Natural forest,Built-up,1.8
+1990-2000,Natural forest,Other land,4171.3
+1990-2000,Plantation,Natural forest,16313.3
+1990-2000,Plantation,Plantation,39732.9
+1990-2000,Plantation,Mangrove,21.1
+1990-2000,Plantation,Woody crops,2257.0
+1990-2000,Plantation,Other agriculture,4722.4
+1990-2000,Plantation,Built-up,9.2
+1990-2000,Plantation,Other land,3573.8
+1990-2000,Mangrove,Natural forest,6.7
+1990-2000,Mangrove,Plantation,13.9
+1990-2000,Mangrove,Mangrove,1497.4
+1990-2000,Mangrove,Woody crops,181.7
+1990-2000,Mangrove,Other agriculture,300.8
+1990-2000,Mangrove,Built-up,10.0
+1990-2000,Mangrove,Other land,875.0
+1990-2000,Woody crops,Natural forest,2125.3
+1990-2000,Woody crops,Plantation,3172.0
+1990-2000,Woody crops,Mangrove,146.1
+1990-2000,Woody crops,Woody crops,15036.2
+1990-2000,Woody crops,Other agriculture,4639.1
+1990-2000,Woody crops,Built-up,108.2
+1990-2000,Woody crops,Other land,1358.2
+1990-2000,Other agriculture,Natural forest,1094.7
+1990-2000,Other agriculture,Plantation,4562.4
+1990-2000,Other agriculture,Mangrove,153.3
+1990-2000,Other agriculture,Woody crops,5166.8
+1990-2000,Other agriculture,Other agriculture,54410.3
+1990-2000,Other agriculture,Built-up,438.9
+1990-2000,Other agriculture,Other land,3465.7
+1990-2000,Built-up,Natural forest,0.2
+1990-2000,Built-up,Plantation,0.6
+1990-2000,Built-up,Mangrove,2.6
+1990-2000,Built-up,Woody crops,4.4
+1990-2000,Built-up,Other agriculture,17.7
+1990-2000,Built-up,Built-up,463.4
+1990-2000,Built-up,Other land,8.0
+1990-2000,Other land,Natural forest,2623.6
+1990-2000,Other land,Plantation,2701.3
+1990-2000,Other land,Mangrove,257.5
+1990-2000,Other land,Woody crops,639.5
+1990-2000,Other land,Other agriculture,3480.9
+1990-2000,Other land,Built-up,81.8
+1990-2000,Other land,Other land,15234.6
+2000-2010,Natural forest,Natural forest,108523.2
+2000-2010,Natural forest,Plantation,17465.2
+2000-2010,Natural forest,Mangrove,3.5
+2000-2010,Natural forest,Woody crops,2314.6
+2000-2010,Natural forest,Other agriculture,2231.0
+2000-2010,Natural forest,Built-up,49.1
+2000-2010,Natural forest,Other land,5709.6
+2000-2010,Plantation,Natural forest,14501.8
+2000-2010,Plantation,Plantation,42268.7
+2000-2010,Plantation,Mangrove,11.5
+2000-2010,Plantation,Woody crops,2385.4
+2000-2010,Plantation,Other agriculture,3748.8
+2000-2010,Plantation,Built-up,80.7
+2000-2010,Plantation,Other land,2524.6
+2000-2010,Mangrove,Natural forest,12.3
+2000-2010,Mangrove,Plantation,38.7
+2000-2010,Mangrove,Mangrove,1119.4
+2000-2010,Mangrove,Woody crops,72.4
+2000-2010,Mangrove,Other agriculture,106.9
+2000-2010,Mangrove,Built-up,34.4
+2000-2010,Mangrove,Other land,696.7
+2000-2010,Woody crops,Natural forest,1364.0
+2000-2010,Woody crops,Plantation,4191.2
+2000-2010,Woody crops,Mangrove,30.4
+2000-2010,Woody crops,Woody crops,15074.3
+2000-2010,Woody crops,Other agriculture,4103.8
+2000-2010,Woody crops,Built-up,402.7
+2000-2010,Woody crops,Other land,1628.1
+2000-2010,Other agriculture,Natural forest,975.0
+2000-2010,Other agriculture,Plantation,4330.7
+2000-2010,Other agriculture,Mangrove,88.0
+2000-2010,Other agriculture,Woody crops,3807.8
+2000-2010,Other agriculture,Other agriculture,52921.1
+2000-2010,Other agriculture,Built-up,1064.1
+2000-2010,Other agriculture,Other land,6283.1
+2000-2010,Built-up,Natural forest,0.3
+2000-2010,Built-up,Plantation,0.6
+2000-2010,Built-up,Mangrove,0.0
+2000-2010,Built-up,Woody crops,3.7
+2000-2010,Built-up,Other agriculture,13.0
+2000-2010,Built-up,Built-up,1093.1
+2000-2010,Built-up,Other land,2.8
+2000-2010,Other land,Natural forest,2244.4
+2000-2010,Other land,Plantation,3654.1
+2000-2010,Other land,Mangrove,134.8
+2000-2010,Other land,Woody crops,680.5
+2000-2010,Other land,Other agriculture,2842.8
+2000-2010,Other land,Built-up,285.6
+2000-2010,Other land,Other land,18844.4
+2010-2020,Natural forest,Natural forest,110515.6
+2010-2020,Natural forest,Plantation,8004.1
+2010-2020,Natural forest,Mangrove,14.1
+2010-2020,Natural forest,Woody crops,3036.8
+2010-2020,Natural forest,Other agriculture,1265.9
+2010-2020,Natural forest,Built-up,66.5
+2010-2020,Natural forest,Other land,4718.2
+2010-2020,Plantation,Natural forest,19899.4
+2010-2020,Plantation,Plantation,34265.2
+2010-2020,Plantation,Mangrove,22.6
+2010-2020,Plantation,Woody crops,8372.8
+2010-2020,Plantation,Other agriculture,3565.9
+2010-2020,Plantation,Built-up,252.2
+2010-2020,Plantation,Other land,5571.0
+2010-2020,Mangrove,Natural forest,4.7
+2010-2020,Mangrove,Plantation,24.3
+2010-2020,Mangrove,Mangrove,1010.0
+2010-2020,Mangrove,Woody crops,25.5
+2010-2020,Mangrove,Other agriculture,49.4
+2010-2020,Mangrove,Built-up,9.8
+2010-2020,Mangrove,Other land,263.9
+2010-2020,Woody crops,Natural forest,1554.1
+2010-2020,Woody crops,Plantation,1276.5
+2010-2020,Woody crops,Mangrove,26.0
+2010-2020,Woody crops,Woody crops,16976.2
+2010-2020,Woody crops,Other agriculture,3371.8
+2010-2020,Woody crops,Built-up,493.2
+2010-2020,Woody crops,Other land,640.9
+2010-2020,Other agriculture,Natural forest,1213.2
+2010-2020,Other agriculture,Plantation,3433.2
+2010-2020,Other agriculture,Mangrove,33.5
+2010-2020,Other agriculture,Woody crops,3221.3
+2010-2020,Other agriculture,Other agriculture,51623.8
+2010-2020,Other agriculture,Built-up,1570.0
+2010-2020,Other agriculture,Other land,4872.3
+2010-2020,Built-up,Natural forest,0.7
+2010-2020,Built-up,Plantation,1.4
+2010-2020,Built-up,Mangrove,0.1
+2010-2020,Built-up,Woody crops,35.6
+2010-2020,Built-up,Other agriculture,42.2
+2010-2020,Built-up,Built-up,2899.5
+2010-2020,Built-up,Other land,30.2
+2010-2020,Other land,Natural forest,3577.7
+2010-2020,Other land,Plantation,2354.5
+2010-2020,Other land,Mangrove,115.9
+2010-2020,Other land,Woody crops,651.6
+2010-2020,Other land,Other agriculture,3005.5
+2010-2020,Other land,Built-up,748.8
+2010-2020,Other land,Other land,25235.4
+1990-2020,Natural forest,Natural forest,107859.2
+1990-2020,Natural forest,Plantation,11804.5
+1990-2020,Natural forest,Mangrove,5.7
+1990-2020,Natural forest,Woody crops,7207.4
+1990-2020,Natural forest,Other agriculture,3011.5
+1990-2020,Natural forest,Built-up,74.0
+1990-2020,Natural forest,Other land,9091.8
+1990-2020,Plantation,Natural forest,22402.0
+1990-2020,Plantation,Plantation,26790.6
+1990-2020,Plantation,Mangrove,17.3
+1990-2020,Plantation,Woody crops,5390.0
+1990-2020,Plantation,Other agriculture,5889.8
+1990-2020,Plantation,Built-up,237.9
+1990-2020,Plantation,Other land,5902.3
+1990-2020,Mangrove,Natural forest,9.5
+1990-2020,Mangrove,Plantation,20.6
+1990-2020,Mangrove,Mangrove,941.0
+1990-2020,Mangrove,Woody crops,111.4
+1990-2020,Mangrove,Other agriculture,133.1
+1990-2020,Mangrove,Built-up,130.0
+1990-2020,Mangrove,Other land,1539.9
+1990-2020,Woody crops,Natural forest,1864.8
+1990-2020,Woody crops,Plantation,2393.2
+1990-2020,Woody crops,Mangrove,26.6
+1990-2020,Woody crops,Woody crops,14480.4
+1990-2020,Woody crops,Other agriculture,4520.9
+1990-2020,Woody crops,Built-up,781.6
+1990-2020,Woody crops,Other land,2517.5
+1990-2020,Other agriculture,Natural forest,1318.7
+1990-2020,Other agriculture,Plantation,5650.0
+1990-2020,Other agriculture,Mangrove,85.0
+1990-2020,Other agriculture,Woody crops,4404.8
+1990-2020,Other agriculture,Other agriculture,46390.5
+1990-2020,Other agriculture,Built-up,3445.6
+1990-2020,Other agriculture,Other land,7997.4
+1990-2020,Built-up,Natural forest,0.1
+1990-2020,Built-up,Plantation,0.0
+1990-2020,Built-up,Mangrove,0.0
+1990-2020,Built-up,Woody crops,0.4
+1990-2020,Built-up,Other agriculture,0.4
+1990-2020,Built-up,Built-up,494.8
+1990-2020,Built-up,Other land,1.2
+1990-2020,Other land,Natural forest,3311.0
+1990-2020,Other land,Plantation,2700.2
+1990-2020,Other land,Mangrove,146.6
+1990-2020,Other land,Woody crops,725.2
+1990-2020,Other land,Other agriculture,2978.4
+1990-2020,Other land,Built-up,876.0
+1990-2020,Other land,Other land,14281.7

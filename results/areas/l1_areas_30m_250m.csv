@@ -1,0 +1,61 @@
+year,version,code,class,area_km2
+1990,30m,1,Residence,919.78
+1990,30m,3,Rice paddies,42021.52
+1990,30m,4,Cropland,56079.18
+1990,30m,7,Grassland,7986.29
+1990,30m,8,Barren land,4980.34
+1990,30m,9,Scrubland,8022.70
+1990,30m,10,Forest,198115.32
+1990,30m,15,Wetland,3256.25
+1990,30m,18,Open water,6839.62
+1990,30m,19,Aquaculture,1742.66
+1990,250m,1,Residence,523.76
+1990,250m,3,Rice paddies,41078.00
+1990,250m,4,Cropland,53627.22
+1990,250m,7,Grassland,4177.48
+1990,250m,8,Barren land,3463.33
+1990,250m,9,Scrubland,7305.09
+1990,250m,10,Forest,209322.29
+1990,250m,15,Wetland,3102.63
+1990,250m,18,Open water,5875.30
+1990,250m,19,Aquaculture,1487.59
+2010,30m,1,Residence,4331.59
+2010,30m,3,Rice paddies,44117.94
+2010,30m,4,Cropland,49374.33
+2010,30m,7,Grassland,9527.94
+2010,30m,8,Barren land,8070.65
+2010,30m,9,Scrubland,7748.94
+2010,30m,10,Forest,191177.84
+2010,30m,15,Wetland,2325.88
+2010,30m,18,Open water,6869.79
+2010,30m,19,Aquaculture,6418.74
+2010,250m,1,Residence,3296.44
+2010,250m,3,Rice paddies,43622.91
+2010,250m,4,Cropland,45006.01
+2010,250m,7,Grassland,6671.01
+2010,250m,8,Barren land,6645.32
+2010,250m,9,Scrubland,5519.91
+2010,250m,10,Forest,204164.87
+2010,250m,15,Wetland,1629.48
+2010,250m,18,Open water,6245.72
+2010,250m,19,Aquaculture,7161.03
+2020,30m,1,Residence,8502.03
+2020,30m,3,Rice paddies,39241.35
+2020,30m,4,Cropland,56922.43
+2020,30m,7,Grassland,11573.30
+2020,30m,8,Barren land,6090.06
+2020,30m,9,Scrubland,11394.62
+2020,30m,10,Forest,178605.97
+2020,30m,15,Wetland,2301.28
+2020,30m,18,Open water,6071.02
+2020,30m,19,Aquaculture,9261.57
+2020,250m,1,Residence,6738.72
+2020,250m,3,Rice paddies,39437.76
+2020,250m,4,Cropland,53985.47
+2020,250m,7,Grassland,6999.21
+2020,250m,8,Barren land,4441.90
+2020,250m,9,Scrubland,9507.84
+2020,250m,10,Forest,192163.64
+2020,250m,15,Wetland,1452.99
+2020,250m,18,Open water,6000.20
+2020,250m,19,Aquaculture,9234.98

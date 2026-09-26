@@ -1,0 +1,246 @@
+model,observed,predicted,row_pct,area_km2
+Persistence,Nat. forest,Nat. forest,80.807,110515.182
+Persistence,Nat. forest,Plantation,14.550,19899.402
+Persistence,Nat. forest,Mangrove,0.003,4.699
+Persistence,Nat. forest,Woody crops,1.136,1554.059
+Persistence,Nat. forest,Other agric.,0.887,1213.167
+Persistence,Nat. forest,Built-up,0.001,0.691
+Persistence,Nat. forest,Other land,2.616,3577.743
+Persistence,Plantation,Nat. forest,16.216,8004.147
+Persistence,Plantation,Plantation,69.420,34265.217
+Persistence,Plantation,Mangrove,0.049,24.277
+Persistence,Plantation,Woody crops,2.586,1276.483
+Persistence,Plantation,Other agric.,6.956,3433.179
+Persistence,Plantation,Built-up,0.003,1.376
+Persistence,Plantation,Other land,4.770,2354.484
+Persistence,Mangrove,Nat. forest,1.154,14.102
+Persistence,Mangrove,Plantation,1.851,22.618
+Persistence,Mangrove,Mangrove,82.635,1009.978
+Persistence,Mangrove,Woody crops,2.129,26.025
+Persistence,Mangrove,Other agric.,2.741,33.507
+Persistence,Mangrove,Built-up,0.005,0.065
+Persistence,Mangrove,Other land,9.484,115.920
+Persistence,Woody crops,Nat. forest,9.396,3036.758
+Persistence,Woody crops,Plantation,25.906,8372.760
+Persistence,Woody crops,Mangrove,0.079,25.463
+Persistence,Woody crops,Woody crops,52.526,16976.206
+Persistence,Woody crops,Other agric.,9.967,3221.286
+Persistence,Woody crops,Built-up,0.110,35.570
+Persistence,Woody crops,Other land,2.016,651.557
+Persistence,Other agric.,Nat. forest,2.012,1265.944
+Persistence,Other agric.,Plantation,5.667,3565.919
+Persistence,Other agric.,Mangrove,0.078,49.373
+Persistence,Other agric.,Woody crops,5.358,3371.763
+Persistence,Other agric.,Other agric.,82.041,51623.804
+Persistence,Other agric.,Built-up,0.067,42.231
+Persistence,Other agric.,Other land,4.776,3005.469
+Persistence,Built-up,Nat. forest,1.101,66.487
+Persistence,Built-up,Plantation,4.175,252.160
+Persistence,Built-up,Mangrove,0.162,9.801
+Persistence,Built-up,Woody crops,8.166,493.233
+Persistence,Built-up,Other agric.,25.994,1570.029
+Persistence,Built-up,Built-up,48.005,2899.504
+Persistence,Built-up,Other land,12.398,748.831
+Persistence,Other land,Nat. forest,11.415,4718.174
+Persistence,Other land,Plantation,13.479,5571.018
+Persistence,Other land,Mangrove,0.639,263.924
+Persistence,Other land,Woody crops,1.551,640.887
+Persistence,Other land,Other agric.,11.788,4872.267
+Persistence,Other land,Built-up,0.073,30.238
+Persistence,Other land,Other land,61.055,25235.358
+CA–Markov,Nat. forest,Nat. forest,79.627,108902.049
+CA–Markov,Nat. forest,Plantation,15.464,21148.858
+CA–Markov,Nat. forest,Mangrove,0.003,3.449
+CA–Markov,Nat. forest,Woody crops,1.048,1432.723
+CA–Markov,Nat. forest,Other agric.,0.775,1060.027
+CA–Markov,Nat. forest,Built-up,0.005,7.507
+CA–Markov,Nat. forest,Other land,3.079,4210.329
+CA–Markov,Plantation,Nat. forest,14.357,7086.470
+CA–Markov,Plantation,Plantation,71.571,35326.659
+CA–Markov,Plantation,Mangrove,0.037,18.325
+CA–Markov,Plantation,Woody crops,2.122,1047.310
+CA–Markov,Plantation,Other agric.,6.567,3241.256
+CA–Markov,Plantation,Built-up,0.051,25.273
+CA–Markov,Plantation,Other land,5.296,2613.869
+CA–Markov,Mangrove,Nat. forest,1.054,12.884
+CA–Markov,Mangrove,Plantation,1.696,20.731
+CA–Markov,Mangrove,Mangrove,67.844,829.199
+CA–Markov,Mangrove,Woody crops,1.504,18.388
+CA–Markov,Mangrove,Other agric.,2.080,25.417
+CA–Markov,Mangrove,Built-up,0.663,8.109
+CA–Markov,Mangrove,Other land,25.158,307.486
+CA–Markov,Woody crops,Nat. forest,8.110,2621.141
+CA–Markov,Woody crops,Plantation,27.911,9020.876
+CA–Markov,Woody crops,Mangrove,0.049,15.752
+CA–Markov,Woody crops,Woody crops,50.577,16346.311
+CA–Markov,Woody crops,Other agric.,9.659,3121.722
+CA–Markov,Woody crops,Built-up,1.238,400.060
+CA–Markov,Woody crops,Other land,2.456,793.739
+CA–Markov,Other agric.,Nat. forest,1.822,1146.712
+CA–Markov,Other agric.,Plantation,6.031,3795.203
+CA–Markov,Other agric.,Mangrove,0.051,31.795
+CA–Markov,Other agric.,Woody crops,4.901,3084.053
+CA–Markov,Other agric.,Other agric.,80.132,50422.514
+CA–Markov,Other agric.,Built-up,1.184,745.149
+CA–Markov,Other agric.,Other land,5.879,3699.078
+CA–Markov,Built-up,Nat. forest,0.810,48.931
+CA–Markov,Built-up,Plantation,4.302,259.821
+CA–Markov,Built-up,Mangrove,0.058,3.514
+CA–Markov,Built-up,Woody crops,5.420,327.349
+CA–Markov,Built-up,Other agric.,19.793,1195.476
+CA–Markov,Built-up,Built-up,56.648,3421.536
+CA–Markov,Built-up,Other land,12.970,783.416
+CA–Markov,Other land,Nat. forest,10.321,4265.726
+CA–Markov,Other land,Plantation,13.944,5763.437
+CA–Markov,Other land,Mangrove,0.284,117.341
+CA–Markov,Other land,Woody crops,1.259,520.540
+CA–Markov,Other land,Other agric.,9.540,3942.865
+CA–Markov,Other land,Built-up,0.436,180.339
+CA–Markov,Other land,Other land,64.216,26541.618
+Random Forest,Nat. forest,Nat. forest,80.958,110722.492
+Random Forest,Nat. forest,Plantation,15.000,20515.075
+Random Forest,Nat. forest,Mangrove,0.002,2.755
+Random Forest,Nat. forest,Woody crops,0.731,1000.151
+Random Forest,Nat. forest,Other agric.,0.927,1268.012
+Random Forest,Nat. forest,Built-up,0.000,0.315
+Random Forest,Nat. forest,Other land,2.381,3256.142
+Random Forest,Plantation,Nat. forest,13.436,6631.765
+Random Forest,Plantation,Plantation,75.286,37160.732
+Random Forest,Plantation,Mangrove,0.026,12.951
+Random Forest,Plantation,Woody crops,1.030,508.365
+Random Forest,Plantation,Other agric.,6.811,3361.852
+Random Forest,Plantation,Built-up,0.002,1.116
+Random Forest,Plantation,Other land,3.408,1682.381
+Random Forest,Mangrove,Nat. forest,0.923,11.282
+Random Forest,Mangrove,Plantation,1.528,18.674
+Random Forest,Mangrove,Mangrove,66.082,807.663
+Random Forest,Mangrove,Woody crops,0.386,4.724
+Random Forest,Mangrove,Other agric.,1.584,19.361
+Random Forest,Mangrove,Built-up,0.005,0.065
+Random Forest,Mangrove,Other land,29.491,360.445
+Random Forest,Woody crops,Nat. forest,7.668,2478.166
+Random Forest,Woody crops,Plantation,31.424,10156.141
+Random Forest,Woody crops,Mangrove,0.034,10.830
+Random Forest,Woody crops,Woody crops,46.598,15060.392
+Random Forest,Woody crops,Other agric.,12.166,3932.083
+Random Forest,Woody crops,Built-up,0.154,49.866
+Random Forest,Woody crops,Other land,1.956,632.123
+Random Forest,Other agric.,Nat. forest,1.319,830.178
+Random Forest,Other agric.,Plantation,6.191,3895.747
+Random Forest,Other agric.,Mangrove,0.022,13.548
+Random Forest,Other agric.,Woody crops,2.438,1534.049
+Random Forest,Other agric.,Other agric.,84.149,52950.566
+Random Forest,Other agric.,Built-up,0.078,49.049
+Random Forest,Other agric.,Other land,5.803,3651.367
+Random Forest,Built-up,Nat. forest,0.432,26.119
+Random Forest,Built-up,Plantation,5.293,319.718
+Random Forest,Built-up,Mangrove,0.058,3.510
+Random Forest,Built-up,Woody crops,5.297,319.967
+Random Forest,Built-up,Other agric.,24.059,1453.150
+Random Forest,Built-up,Built-up,49.931,3015.829
+Random Forest,Built-up,Other land,14.930,901.752
+Random Forest,Other land,Nat. forest,9.339,3860.101
+Random Forest,Other land,Plantation,16.860,6968.588
+Random Forest,Other land,Mangrove,0.219,90.501
+Random Forest,Other land,Woody crops,0.741,306.339
+Random Forest,Other land,Other agric.,9.100,3761.115
+Random Forest,Other land,Built-up,0.063,26.194
+Random Forest,Other land,Other land,63.677,26319.026
+ConvLSTM,Nat. forest,Nat. forest,76.852,105106.959
+ConvLSTM,Nat. forest,Plantation,16.161,22102.094
+ConvLSTM,Nat. forest,Mangrove,0.012,16.376
+ConvLSTM,Nat. forest,Woody crops,1.913,2616.021
+ConvLSTM,Nat. forest,Other agric.,0.998,1364.596
+ConvLSTM,Nat. forest,Built-up,0.046,62.634
+ConvLSTM,Nat. forest,Other land,4.019,5496.263
+ConvLSTM,Plantation,Nat. forest,10.591,5227.419
+ConvLSTM,Plantation,Plantation,75.924,37475.428
+ConvLSTM,Plantation,Mangrove,0.107,52.679
+ConvLSTM,Plantation,Woody crops,2.047,1010.596
+ConvLSTM,Plantation,Other agric.,6.640,3277.474
+ConvLSTM,Plantation,Built-up,0.217,106.915
+ConvLSTM,Plantation,Other land,4.475,2208.653
+ConvLSTM,Mangrove,Nat. forest,0.133,1.626
+ConvLSTM,Mangrove,Plantation,0.503,6.145
+ConvLSTM,Mangrove,Mangrove,92.834,1134.634
+ConvLSTM,Mangrove,Woody crops,0.148,1.811
+ConvLSTM,Mangrove,Other agric.,0.397,4.852
+ConvLSTM,Mangrove,Built-up,1.131,13.823
+ConvLSTM,Mangrove,Other land,4.854,59.322
+ConvLSTM,Woody crops,Nat. forest,4.336,1401.386
+ConvLSTM,Woody crops,Plantation,27.685,8947.755
+ConvLSTM,Woody crops,Mangrove,0.168,54.411
+ConvLSTM,Woody crops,Woody crops,52.689,17028.981
+ConvLSTM,Woody crops,Other agric.,10.389,3357.717
+ConvLSTM,Woody crops,Built-up,2.334,754.326
+ConvLSTM,Woody crops,Other land,2.398,775.025
+ConvLSTM,Other agric.,Nat. forest,0.813,511.616
+ConvLSTM,Other agric.,Plantation,6.053,3808.988
+ConvLSTM,Other agric.,Mangrove,0.348,219.247
+ConvLSTM,Other agric.,Woody crops,3.243,2040.821
+ConvLSTM,Other agric.,Other agric.,81.329,51176.032
+ConvLSTM,Other agric.,Built-up,1.961,1233.682
+ConvLSTM,Other agric.,Other land,6.252,3934.117
+ConvLSTM,Built-up,Nat. forest,0.171,10.324
+ConvLSTM,Built-up,Plantation,2.833,171.092
+ConvLSTM,Built-up,Mangrove,0.354,21.403
+ConvLSTM,Built-up,Woody crops,3.014,182.047
+ConvLSTM,Built-up,Other agric.,13.226,798.856
+ConvLSTM,Built-up,Built-up,72.159,4358.452
+ConvLSTM,Built-up,Other land,8.243,497.871
+ConvLSTM,Other land,Nat. forest,6.501,2686.874
+ConvLSTM,Other land,Plantation,16.193,6692.792
+ConvLSTM,Other land,Mangrove,2.160,892.907
+ConvLSTM,Other land,Woody crops,1.134,468.767
+ConvLSTM,Other land,Other agric.,8.349,3450.674
+ConvLSTM,Other land,Built-up,1.607,664.270
+ConvLSTM,Other land,Other land,64.056,26475.581
+Temporal ViT,Nat. forest,Nat. forest,73.594,100650.878
+Temporal ViT,Nat. forest,Plantation,17.244,23584.326
+Temporal ViT,Nat. forest,Mangrove,0.013,17.322
+Temporal ViT,Nat. forest,Woody crops,1.727,2361.474
+Temporal ViT,Nat. forest,Other agric.,1.176,1607.897
+Temporal ViT,Nat. forest,Built-up,0.113,154.053
+Temporal ViT,Nat. forest,Other land,6.134,8388.993
+Temporal ViT,Plantation,Nat. forest,10.933,5396.580
+Temporal ViT,Plantation,Plantation,73.070,36066.569
+Temporal ViT,Plantation,Mangrove,0.130,64.253
+Temporal ViT,Plantation,Woody crops,2.576,1271.581
+Temporal ViT,Plantation,Other agric.,6.683,3298.728
+Temporal ViT,Plantation,Built-up,0.711,350.869
+Temporal ViT,Plantation,Other land,5.897,2910.582
+Temporal ViT,Mangrove,Nat. forest,0.410,5.007
+Temporal ViT,Mangrove,Plantation,0.295,3.610
+Temporal ViT,Mangrove,Mangrove,77.095,942.269
+Temporal ViT,Mangrove,Woody crops,0.101,1.230
+Temporal ViT,Mangrove,Other agric.,0.738,9.018
+Temporal ViT,Mangrove,Built-up,3.517,42.986
+Temporal ViT,Mangrove,Other land,17.844,218.093
+Temporal ViT,Woody crops,Nat. forest,5.145,1662.988
+Temporal ViT,Woody crops,Plantation,24.261,7840.913
+Temporal ViT,Woody crops,Mangrove,0.070,22.473
+Temporal ViT,Woody crops,Woody crops,51.536,16656.114
+Temporal ViT,Woody crops,Other agric.,10.530,3403.254
+Temporal ViT,Woody crops,Built-up,4.339,1402.393
+Temporal ViT,Woody crops,Other land,4.120,1331.466
+Temporal ViT,Other agric.,Nat. forest,1.567,986.071
+Temporal ViT,Other agric.,Plantation,7.807,4912.305
+Temporal ViT,Other agric.,Mangrove,0.143,89.867
+Temporal ViT,Other agric.,Woody crops,3.964,2494.171
+Temporal ViT,Other agric.,Other agric.,74.902,47131.720
+Temporal ViT,Other agric.,Built-up,3.981,2505.184
+Temporal ViT,Other agric.,Other land,7.636,4805.185
+Temporal ViT,Built-up,Nat. forest,0.276,16.682
+Temporal ViT,Built-up,Plantation,3.570,215.654
+Temporal ViT,Built-up,Mangrove,0.255,15.415
+Temporal ViT,Built-up,Woody crops,3.178,191.943
+Temporal ViT,Built-up,Other agric.,15.692,947.799
+Temporal ViT,Built-up,Built-up,65.979,3985.191
+Temporal ViT,Built-up,Other land,11.049,667.359
+Temporal ViT,Other land,Nat. forest,6.395,2643.343
+Temporal ViT,Other land,Plantation,15.589,6443.336
+Temporal ViT,Other land,Mangrove,1.081,446.780
+Temporal ViT,Other land,Woody crops,1.345,556.015
+Temporal ViT,Other land,Other agric.,8.477,3503.786
+Temporal ViT,Other land,Built-up,3.203,1323.702
+Temporal ViT,Other land,Other land,63.909,26414.904
