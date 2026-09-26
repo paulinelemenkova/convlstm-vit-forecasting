@@ -3,8 +3,7 @@
 PyTorch and Python code that trains a convolutional LSTM (ConvLSTM) and a Temporal Vision
 Transformer (ViT) to forecast annual categorical land cover maps ten years ahead, validates
 them by a temporal hindcast against persistence, CA–Markov and Random Forest baselines,
-and reproduces all statistics, tables and figures of the accompanying article
-(citation to be added on publication).
+and reproduces all statistics.
 
 ## Method in brief
 
