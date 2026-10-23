@@ -40,8 +40,8 @@ and reproduces all statistics.
 | `scripts/fig10_trajectory_2030.py` | Figure 10: class areas 1990–2030 and change per decade |
 | `scripts/fig11_forecast_2030.py` | Figure 11: 2030 forecasts and model agreement |
 | `scripts/fig12_attention.py` | Figure 12: attention rollout of the Temporal ViT |
+| `scripts/figS_architectures.py` | Supplementary Figures S1–S2: ConvLSTM and Temporal ViT block diagrams |
 | `models/` | Trained weights (`convlstm_seed0.pt`, `vit_seed0.pt`; PyTorch state dicts) |
-| `results/hindcast/` | Hindcast metrics, per-class F1, confusion matrices, training logs, attention shares |
 | `results/areas/` | Class areas, transition matrices, gross/net change, 30 m vs 250 m comparison |
 | `results/figure_data/` | Values plotted in Figures 6 and 9–12 |
 
