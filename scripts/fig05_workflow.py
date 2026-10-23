@@ -1,3 +1,11 @@
+"""Workflow diagram for Paper A (Figure 5): JAXA land cover maps, change analysis, forecasting models.
+
+Five rows (data, pre-processing, analysis and modelling, validation, outputs) on a three-column grid.
+Box heights are derived from the wrapped text; the script verifies that every text block
+fits its box, that every arrow starts and ends on a box edge, and that no arrow crosses text.
+Coordinates are in inches (1 data unit = 72 pt). Environment variable: FIG_OUT.
+"""
+
 from __future__ import annotations
 
 import os
@@ -8,12 +16,12 @@ from pathlib import Path
 import matplotlib
 
 matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-import numpy as np
-from matplotlib.axes import Axes
-from matplotlib.font_manager import FontProperties, findfont
-from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
-from matplotlib.text import Text
+import matplotlib.pyplot as plt  # noqa: E402
+import numpy as np  # noqa: E402
+from matplotlib.axes import Axes  # noqa: E402
+from matplotlib.font_manager import FontProperties, findfont  # noqa: E402
+from matplotlib.patches import FancyArrowPatch, FancyBboxPatch  # noqa: E402
+from matplotlib.text import Text  # noqa: E402
 
 OUT = Path(os.environ.get("FIG_OUT", "./figs"))
 OUT.mkdir(parents=True, exist_ok=True)
@@ -37,17 +45,17 @@ assert (
     not in findfont(FontProperties(family=plt.rcParams["font.sans-serif"])).lower()
 )
 
-W = 5.45
+W = 5.45  # in, MDPI text width (13.9 cm)
 FS_ROW, FS_HEAD, FS_BODY, FS_TOOL = 9.5, 9.0, 8.5, 8.0
-LH = 1.2
-PAD = 0.075
-GAP_X = 0.10
-GAP_ROW = 0.34
+LH = 1.2  # line spacing factor
+PAD = 0.075  # in, inner padding (top/bottom)
+GAP_X = 0.10  # in, gap between columns
+GAP_ROW = 0.34  # in, vertical gap between rows (row title + arrows)
 NCOL = 3
 COLW = (W - (NCOL - 1) * GAP_X) / NCOL
-INNER_GAP = 3.0
+INNER_GAP = 3.0  # pt, gap between head, body and tool lines
 
-STAGE = {
+STAGE = {  # light fill, dark outline of the same Okabe-Ito hue
     "data": ("#DCEBF7", "#0072B2"),
     "proc": ("#FBE7C6", "#A0700A"),
     "anal": ("#D5EFE6", "#007A5A"),
@@ -65,10 +73,12 @@ ROW_STAGE = ["data", "proc", "anal", "val", "out"]
 
 
 def vis_len(s: str) -> int:
+    """Visible length of a string, ignoring mathtext markup."""
     return len(re.sub(r"\$|\\mathit\{|\^\{|\}", "", s))
 
 
 def wrap_vis(text: str, width: int) -> list[str]:
+    """Greedy word wrap using the visible (rendered) length of each word."""
     lines: list[str] = []
     cur = ""
     for w in text.split(" "):
@@ -87,8 +97,8 @@ def wrap_vis(text: str, width: int) -> list[str]:
 class Box:
     key: str
     row: int
-    c0: int
-    c1: int
+    c0: int  # first column (0-based)
+    c1: int  # last column (inclusive)
     head: str
     body: str
     tool: str = ""
@@ -100,6 +110,7 @@ class Box:
 
     @property
     def wrap(self) -> int:
+        """Characters per line from the box width (8.5-pt Nimbus Sans ~ 0.058 in / char)."""
         width = (self.c1 - self.c0 + 1) * COLW + (self.c1 - self.c0) * GAP_X - 0.16
         return int(width / 0.061)
 
@@ -159,7 +170,7 @@ BOXES = [
         1,
         1,
         "Deep learning models",
-        "ConvLSTM and Temporal ViT; inputs years t−4 to t, target t+10 (t\u00a0=\u00a01994–2000); five-seed ensembles",
+        "ConvLSTM and Temporal ViT; inputs years t−4 to t, target t+10 (t\u00a0=\u00a01994–2000); class-weighted loss; one\u00a0seed per model",
         "Python: PyTorch",
     ),
     Box(
@@ -194,7 +205,7 @@ BOXES = [
         1,
         1,
         "Model comparison",
-        "Accuracy table and confusion matrices",
+        "Accuracy table, confusion matrices and attention rollout",
     ),
     Box(
         "o_fc",
@@ -202,7 +213,7 @@ BOXES = [
         2,
         2,
         "Forecast for 2030",
-        "Class maps from 2016–2020 inputs; model agreement; attention rollout",
+        "Class maps from 2016–2020 inputs; agreement of the two models",
     ),
 ]
 BOX = {b.key: b for b in BOXES}
@@ -223,7 +234,7 @@ EDGES = [
 def layout() -> float:
     y = 0.0
     for r in range(len(ROW_TITLES)):
-        y -= GAP_ROW if r > 0 else 0.22
+        y -= GAP_ROW if r > 0 else 0.22  # first row: space for its title only
         row = [b for b in BOXES if b.row == r]
         h = max(b.content_h() for b in row) + 2 * PAD
         for b in row:
@@ -241,6 +252,7 @@ ax.set_xlim(0, W)
 ax.set_ylim(-H, 0)
 ax.axis("off")
 
+# ---------------------------------------------------------------- boxes and row titles
 row_titles: list[Text] = []
 for r, title in enumerate(ROW_TITLES):
     top = max(b.y1 for b in BOXES if b.row == r)
@@ -273,7 +285,7 @@ for b in BOXES:
     )
     h, bd, tl = b.lines()
     cx = (b.x0 + b.x1) / 2
-    y = (b.y0 + b.y1) / 2 + b.content_h() / 2
+    y = (b.y0 + b.y1) / 2 + b.content_h() / 2  # centre the whole text block vertically
     for lines_, fs, kw in (
         (h, FS_HEAD, {"weight": "bold"}),
         (bd, FS_BODY, {}),
@@ -296,6 +308,7 @@ for b in BOXES:
         )
         y -= (len(lines_) * fs * LH + INNER_GAP) / 72.0
 
+# ---------------------------------------------------------------- arrows (vertical only)
 ARROW_KW = dict(
     arrowstyle="-|>",
     mutation_scale=12,
@@ -305,16 +318,18 @@ ARROW_KW = dict(
     shrinkB=0,
     zorder=3,
 )
-segments: list[tuple[str, str, float, float, float]] = []
+segments: list[tuple[str, str, float, float, float]] = []  # a, b, x, y_start, y_end
 for a_key, b_key in EDGES:
     a, b = BOX[a_key], BOX[b_key]
     lo, hi = max(a.x0, b.x0), min(a.x1, b.x1)
+    # arrows sit in the right part of the shared span, clear of the left-aligned row titles
     x = hi - 0.42 if (hi - lo) < 1.2 * COLW else (b.x0 + b.x1) / 2
     ax.add_patch(FancyArrowPatch((x, a.y0), (x, b.y1), **ARROW_KW))
     segments.append((a_key, b_key, x, a.y0, b.y1))
 
+# ---------------------------------------------------------------- verification (pixel space)
 fig.canvas.draw()
-rnd = fig.canvas.get_renderer()
+rnd = fig.canvas.get_renderer()  # type: ignore[attr-defined]
 fails = 0
 for b in BOXES:
     (bx0, by0), (bx1, by1) = ax.transData.transform([(b.x0, b.y0), (b.x1, b.y1)])
@@ -332,6 +347,7 @@ for a_key, b_key, x, ys, ye in segments:
     if not (ok_x and ok_y):
         fails += 1
         print("ARROW NOT CONNECTED:", a_key, "->", b_key)
+    # arrow must not pass through any text (row titles or box texts)
     p0 = ax.transData.transform((x, ys))
     p1 = ax.transData.transform((x, ye))
     for t in row_titles + [t for bb in BOXES for t in bb.texts]:
